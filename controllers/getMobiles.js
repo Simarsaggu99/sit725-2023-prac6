@@ -6,7 +6,7 @@ const getMobiles = async (req, res, next) =>{
         res.json({
             status:200,
             success:true,
-            message:"mobiles fetched successfully",
+            message:"success",
             data:mobile
         })
     }
